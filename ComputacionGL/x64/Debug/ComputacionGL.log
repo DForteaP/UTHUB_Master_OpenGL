@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\UT-HUB\Master\Computación gráfica\ComputacionGL\ComputacionGL\main.cpp(195,42): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  ComputacionGL.vcxproj -> E:\UT-HUB\Master\Computación gráfica\ComputacionGL\ComputacionGL\x64\Debug\ComputacionGL.exe
