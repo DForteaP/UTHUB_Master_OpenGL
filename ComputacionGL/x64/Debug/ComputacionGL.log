@@ -1,3 +1,8 @@
-﻿  main.cpp
-E:\UT-HUB\Master\Computación gráfica\ComputacionGL\ComputacionGL\main.cpp(195,42): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-  ComputacionGL.vcxproj -> E:\UT-HUB\Master\Computación gráfica\ComputacionGL\ComputacionGL\x64\Debug\ComputacionGL.exe
+﻿  Camera.cpp
+  main.cpp
+E:\UT-HUB\Master\Computación gráfica\ComputacionGL\UTHUB_Master_OpenGL\main.cpp(195,42): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  STB.cpp
+  Generating Code...
+  glad.c
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  ComputacionGL.vcxproj -> E:\UT-HUB\Master\Computación gráfica\ComputacionGL\UTHUB_Master_OpenGL\x64\Debug\ComputacionGL.exe
