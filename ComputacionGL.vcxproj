@@ -144,6 +144,15 @@
     <ClInclude Include="Dependencies\include\GLFW\glfw3.h" />
     <ClInclude Include="Dependencies\include\GLFW\glfw3native.h" />
     <ClInclude Include="Dependencies\include\KHR\khrplatform.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Objects\Cube.h" />
+    <ClInclude Include="Objects\CubeSmall.h" />
+    <ClInclude Include="Objects\Piramid.h" />
+    <ClInclude Include="Objects\Plane.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="Texture.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\fragment.glsl" />

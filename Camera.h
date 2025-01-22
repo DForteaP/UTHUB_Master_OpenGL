@@ -27,7 +27,7 @@ public:
 
 	Camera(int width, int height, glm::vec3 position);
 
-	void CameraMatrix(float FOV, float nearPlane, float farPlane, unsigned int ShaderProgram, const char* uniform);
+	glm::mat4 CameraMatrix(float FOV, float nearPlane, float farPlane, unsigned int ShaderProgram, const char* uniform);
 
 	void CameraInputs(GLFWwindow* window);
 };
