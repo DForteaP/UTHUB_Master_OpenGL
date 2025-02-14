@@ -18,7 +18,7 @@ public:
         if (!success) {
             char infoLog[512];
             glGetProgramInfoLog(ID, 512, nullptr, infoLog);
-            std::cerr << "Error: Program linking failed\n" << infoLog << std::endl;
+            std::cerr << "Error\n" << infoLog << std::endl;
         }
     }
 

@@ -20,7 +20,7 @@ public:
             glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
             glGenerateMipmap(GL_TEXTURE_2D);
         } else {
-            std::cerr << "Error: Failed to load texture at " << path << std::endl;
+            std::cerr << "Error" << path << std::endl;
         }
         stbi_image_free(data);
     }

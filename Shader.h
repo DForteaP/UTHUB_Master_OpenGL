@@ -16,7 +16,7 @@ public:
         if (!success) {
             char infoLog[512];
             glGetShaderInfoLog(ID, 512, nullptr, infoLog);
-            std::cerr << "Error: Shader compilation failed\n" << infoLog << std::endl;
+            std::cerr << "Error\n" << infoLog << std::endl;
         }
     }
 

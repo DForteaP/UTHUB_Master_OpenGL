@@ -58,6 +58,7 @@ int main() {
     Object object3(verticeslight, sizeof(verticeslight), indiceslight, sizeof(indiceslight), "yellow.jpg");
     Object object4(verticescubo, sizeof(verticescubo), indicescubo, sizeof(indicescubo), "purple.jpg");
     Object object5(verticescubo, sizeof(verticescubo), indicescubo, sizeof(indicescubo), "blue.jpg");
+    Object object6(verticescubo, sizeof(verticescubo), indicescubo, sizeof(indicescubo), "purple.jpg");
     
     // Ajustar posición de los objetos
     object0.setModelMatrix(glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 0.0f))); //Suelo
@@ -66,6 +67,7 @@ int main() {
     object3.setModelMatrix(glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.5f, 0.0f))); //Fuente de iluminación
     object4.setModelMatrix(glm::translate(glm::mat4(1.0f), glm::vec3(1.0f, 0.0f, 0.0f))); //Cubo purpura
     object5.setModelMatrix(glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 1.0f))); //Cubo azul
+    object6.setModelMatrix(glm::translate(glm::mat4(1.0f), glm::vec3(1.0f, 1.0f, 1.0f))); //Cubo purpura 2
 
     // Crear cámara
     Camera camera(width, height, glm::vec3(0.0f, 1.0f, 4.0f));
@@ -92,6 +94,8 @@ int main() {
         object3.draw(shaderProgram);
         object4.draw(shaderProgram);
         object5.draw(shaderProgram);
+        object6.draw(shaderProgram);
+
         
         glfwSwapBuffers(window);
         glfwPollEvents();
